@@ -38,9 +38,23 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Profiles" />
+    <Folder Include="SilverWebRoleContent\" />
   </ItemGroup>
   <ItemGroup>
     <PublishProfile Include="Profiles\busymanProduction.azurePubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SilverWebRole\SilverWebRole.csproj">
+      <Name>SilverWebRole</Name>
+      <Project>{62bdab1f-30a1-419a-9aed-88df91d562f7}</Project>
+      <Private>True</Private>
+      <RoleType>Web</RoleType>
+      <RoleName>SilverWebRole</RoleName>
+      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <DiagnosticsConfiguration Include="SilverWebRoleContent\diagnostics.wadcfgx" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>

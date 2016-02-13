@@ -15,8 +15,8 @@
     <AzureEnableProfiling>True</AzureEnableProfiling>
     <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
     <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
-    <AzureStorageAccountLabel>cfn</AzureStorageAccountLabel>
-    <AzureStorageAccountName>cfn</AzureStorageAccountName>
+    <AzureStorageAccountLabel>MetalStorageAccount</AzureStorageAccountLabel>
+    <AzureStorageAccountName>metalstorageaccount</AzureStorageAccountName>
     <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
     <EnableRemoteDebugger>True</EnableRemoteDebugger>
     <RemoteDebuggerConnectorCertificateThumbprint>BE3860A1C76BFC2BBD6D214BD7B04247E23A1E12</RemoteDebuggerConnectorCertificateThumbprint>
